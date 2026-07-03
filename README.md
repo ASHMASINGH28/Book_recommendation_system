@@ -50,7 +50,7 @@ book_recommender_cpp/
 │   ├── evaluation.cpp
 │   ├── main.cpp
 │   └── svd_model.cpp
-├── data/               # put Ratings.csv / Books.csv here
+├── data/               # Ratings.csv / Books.csv here
 ├── Makefile
 └── README.md
 ```
@@ -66,8 +66,6 @@ make            # builds ./book_recommender
 ## Get the data
 
 This uses the [Book-Crossing dataset](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset)
-(same dataset as the original notebook). Download `Ratings.csv` and
-`Books.csv` and place them in `data/`.
 
 ## Run
 
